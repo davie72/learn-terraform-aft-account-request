@@ -4,7 +4,7 @@ module "sandbox" {
   control_tower_parameters = {
     AccountEmail              = "stratus.projects.aws+lz-sandbox@gmail.com"
     AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Learn AFT""
+    ManagedOrganizationalUnit = "Learn AFT"
     SSOUserEmail              = "stratus.projects.aws+lz-learn-aft-sso@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
