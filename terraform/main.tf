@@ -2,10 +2,10 @@ module "sandbox" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "aws.ctlz.ad+terraform-sandbox@gmail.com"
+    AccountEmail              = "stratus.projects.aws+lz-sandbox@gmail.com"
     AccountName               = "sandbox-aft"
-    ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "aws.ctlz.ad+terraform-sso@gmail.com"
+    ManagedOrganizationalUnit = "Learn AFT""
+    SSOUserEmail              = "stratus.projects.aws+lz-learn-aft-sso@gmail.com"
     SSOUserFirstName          = "Sandbox"
     SSOUserLastName           = "AFT"
   }
