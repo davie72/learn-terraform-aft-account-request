@@ -2,10 +2,10 @@ module "sandbox-1" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "stratus.projects.aws+lz-sec-tooling@gmail.com"
-    AccountName               = "sec-tooling"
+    AccountEmail              = "stratus.projects.aws+lz-sec-tooling2@gmail.com"
+    AccountName               = "sec-tooling2"
     ManagedOrganizationalUnit = "Sandbox"
-    SSOUserEmail              = "stratus.projects.aws+lz-sec-tooling-sso@gmail.com"
+    SSOUserEmail              = "stratus.projects.aws+lz-sec-tooling2-sso@gmail.com"
     SSOUserFirstName          = "Sec"
     SSOUserLastName           = "Tooling"
   }
@@ -23,5 +23,5 @@ module "sandbox-1" {
     group = "non-prod"
   }
 
-  account_customizations_name = "sandbox"
+  account_customizations_name = "sec-services"
 }
