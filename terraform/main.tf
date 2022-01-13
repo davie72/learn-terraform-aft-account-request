@@ -1,4 +1,4 @@
-module "sandbox-1" {
+module "sec-services" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
